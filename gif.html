@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>What The Gif?</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="giphy.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   
 </head>
@@ -16,21 +18,44 @@
     <h2>What gifs would you like to see?</h2>
     <input id="input" type="text">
     <br><br>
-    <input id="submit" type="submit" value="Submit">
+    <input id="submit" type="submit" value="Submit" class="btn btn-lg btn-primary">
   </form> 
 
 
-  <div id="gifone"></div>
-  <div id="giftwo"></div>
-  <div id="gifthree"></div>
-  <div id="giffour"></div>
-  <div id="giffive"></div>
-  <div id="gifsix"></div>
-  <div id="gifseven"></div>
-  <div id="gifeight"></div>
-  <div id="gifnine"></div>
-  <div id="giften"></div>
-    
+<div class="container">
+  <div class="row">
+    <div class="col"><div id="gifone"></div>
+    </div>
+    <div class="col"><div id="giftwo"></div>
+  </div>
+  <div class="row">
+    <div class="col"><div id="gifthree"></div>
+    </div>
+    <div class="col"><div id="giffour"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col"><div id="gifive"></div>
+    </div>
+    <div class="col"><div id="gifsix"></div>
+    </div>
+  </div>  
+  <div class="row">
+    <div class="col"><div id="gifseven"></div>
+    </div>
+    <div class="col"><div id="gifeight"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col"><div id="gifnine"></div>
+    </div>
+    <div class="col"><div id="giften"></div>
+    </div>
+  </div>  
+</div> 
+
+
+
 
 <script src="giphy.js"></script>
 
